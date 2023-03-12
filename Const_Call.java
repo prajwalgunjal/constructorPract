@@ -22,7 +22,6 @@ int id,age;
         System.out.println("ENter ID: ");
         id = new Scanner(System.in).nextInt();
     }
-
     public static void main(String[] args) {
         new Const_Call();
     }
