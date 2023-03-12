@@ -16,13 +16,10 @@ void m1(){
     constructor(int a, int b){
         System.out.println("2 arg constructor");
     }
-
     public static void main(String[] args) {
         constructor c = new constructor();
         new constructor(10);
         new constructor(10,20);
         c.m1();
     }
-
-
 }
