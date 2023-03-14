@@ -17,7 +17,6 @@ class m2 extends m1{
         System.out.println("this is m2");}
 }
 public class inheritance extends m2 {
-
     public static void main(String[] args) {
         inheritance i = new inheritance();
         i.a=10;
