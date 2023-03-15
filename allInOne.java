@@ -69,7 +69,6 @@ void printarray(){
         }
 }
 void sortArray(){
-    takeArray();
     for(int i=0;i<arr.length;i++)
     {
         for(int j=i+1;j<arr.length;j++)
@@ -98,7 +97,8 @@ void biggestele(){
 }
 
 void SecondLargetsElement(){
-
+sortArray();
+    System.out.println(arr[arr.length-1]+"is the second largest number from the array");
 }
 }
 
